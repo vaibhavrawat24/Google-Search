@@ -1,0 +1,35 @@
+<!-- alex o | github: alxojy | coded with HTML, SaSS, BootStrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Google Images</title>
+    </head>
+
+    <body>
+        <div class='nav-link text-right'>
+            <a href="advanced_search.html" class="text-secondary">Advanced Search</a>&emsp;
+            <a href="index.html" class="text-secondary">Google search</a>
+        </div>
+
+       <div>
+        <img id="img_srch" src="google_image.png" alt="Google image search">
+       </div>
+
+        <div>
+            <form action="https://google.com/search">
+                <div>
+                    <input type="hidden" name="tbm" value="isch">
+                    <input type="text" name="q" class="control" placeholder="  Image Search..">
+                    
+                </div>
+                <div class="below_google3">
+                    <input type="submit" value="Search Image">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>

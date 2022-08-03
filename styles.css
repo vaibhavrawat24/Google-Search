@@ -1,0 +1,111 @@
+form{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    
+}
+
+#round{
+    width: 600px;
+    height: 40px;
+    border-radius: 2rem;
+    color: black;
+}
+
+.below_google2{
+    position: relative;
+    width: 300px;
+    top: -25px;
+    left: 420px;
+}
+
+.below_google{
+    position: relative;
+    width: 1000px;
+    top: 5px;
+    left: 200px;
+}
+
+#imag{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    left: 450px;
+    top: 100px;
+}
+
+.control{
+    position: relative;
+    top: 80px;
+    height: 40px;
+    width: 500px;
+    border-radius: 2rem;
+}
+
+#img_srch{
+    position: relative;
+    height: 140px;
+    width: 320px;
+    left: 460px;
+    top: 100px;
+}
+
+.below_google3{
+    position: relative;
+    width: 300px;
+    top: 90px;
+    left: 470px;
+}
+
+#ggle{
+    position: relative;
+    height: 80px;
+    width: 100px;
+    top: -10px;
+
+}
+
+#adv{
+    color: rgb(208, 13, 13);
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: -10px;
+    border-bottom: 1px solid rgb(204, 198, 198);
+ 
+    height: 50px;
+    width: 860px;
+    
+}
+
+#find{
+    position: relative;
+    left: 40px;
+}
+
+#heading{
+    position: relative;
+    left: -540px;
+}
+
+#heading2{
+    position: relative;
+    left: -505px;
+}
+
+#heading3{
+    position: relative;
+    left: -528px;
+}
+
+#heading4{
+    position: relative;
+    left: -525px;
+}
+
+.data{
+    position: relative;
+    left: 300px;
+    top: -30px;
+    width: 600px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div class='nav-link text-right'>
+            <a href="index.html" class="text-secondary">Google Search</a>&emsp;
+            <a href="image_search.html" class="text-secondary">Image search</a>
+        </div>
+
+        <div>
+            <img id="ggle" src="google.png" alt="google">
+        </div>
+
+        <div id="adv">
+            Advanced Search
+        </div>
+
+        <div>
+            <p id="find">Find pages with... :</p>
+            <form action="https://google.com/search">
+                <div>
+                    <div id="heading">
+                        all these words:
+                    </div>
+                    <div class="data">
+                        <input name="as_q" type="text" class="form-control" placeholder=" Type the important words: tri-colour rat terrier">
+                    </div>
+                </div>
+
+                <div>
+                    <div id="heading2">
+                        this exact word or phrase:
+                    </div>
+                    <div class="data">
+                        <input name="as_epq" type="text" class="form-control" placeholder='Put exact words in quotes: "rat terrier"'>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="heading3">
+                        any of these words:
+                    </div>
+                    <div class="data">
+                        <input name="as_oq" type="text" class="form-control" placeholder="Type OR between all the words you want: miniature OR standard">
+                    </div>
+                </div>
+
+                <div>
+                    <div id="heading4">
+                        none of these words:
+                    </div>
+                    <div class="data">
+                        <input name="as_eq" type="text" class="form-control" placeholder="Put a minus sign just before words that you don't want: -rodent">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Advanced search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
